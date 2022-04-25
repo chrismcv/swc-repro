@@ -1,0 +1,16 @@
+{
+  "name": "swc-repro",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:chrismcv/swc-repro.git",
+  "author": "Chris McVittie <chris.mcvittie@blue-zinc.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "swc --config-file .swcrc simple.tsx"
+  },
+  "dependencies": {
+    "@swc/cli": "^0.1.57",
+    "@swc/core": "^1.2.171",
+    "react": "^18.0.0"
+  }
+}
